@@ -1,7 +1,6 @@
-using System;
-using System.Threading;
-using UnityEngine;
 using Cysharp.Threading.Tasks;
+using System.Threading;
+using System;
 
 public class Timer
 

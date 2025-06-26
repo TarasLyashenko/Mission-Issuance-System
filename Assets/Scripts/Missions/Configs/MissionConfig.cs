@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "MissionConfig", menuName = "Missions/Mission Config")]
-public class MissionConfig : ScriptableObject
+public class MissionConfig : MonoBehaviour
 {
     [Header("Mission Settings")]
     public string missionName;
